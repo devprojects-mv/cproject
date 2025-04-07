@@ -410,6 +410,67 @@ text-decoration: none;
 }
 
 
+/********* Cart Page ***********/
+#page-header.cart-header  {
+     background-image: url("img/banner5.png");
+}
+
+.shoppingCart{
+   position: relative;
+}
+
+.shoppingCart .quantity {
+   background-color: yellow;
+   color: black;
+   border-radius: 50%;
+   padding: 0 8px;
+   position: absolute;
+   top: -10px;
+   left: 35px;
+   font-size: 12px;
+
+}
+
+#cart table {
+    width: 100%;
+    white-space: nowrap;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#cart table img {
+    width: 80px;
+   
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 1;
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td {
+    font-weight: 700;
+    padding: 18px 0;
+    text-transform: uppercase;
+}
+
+#cart table thead td {
+    padding-top: 15px;
+}
+
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+
+
+
 
 
 
