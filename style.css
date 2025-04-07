@@ -250,6 +250,26 @@ text-decoration: none;
      text-align: center;
 }
 
+/********* Shop Page ***********/
+
+#page-header {
+     background-image: url("img/banner1.png");
+     height: 40vh;
+     width: 100%;
+     background-repeat:no-repeat;
+     background-size: cover;
+     justify-content: center;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+
+}
+
+
+#page-header h2, 
+#page-header p {
+     color: #fff;
+}
 
 
 
