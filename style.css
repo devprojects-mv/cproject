@@ -272,15 +272,41 @@ text-decoration: none;
 }
 
 
+/********* Blog Page ***********/
+#page-header.blog-header  {
+     background-image: url("img/banner2.png");
+}
 
+#blog .blog-area {
+     align-items: center;
+     width: 100%;
+     display: flex;
+     padding-bottom: 85px;
+}
 
+#blog {
+     padding: 150px 150px 0 150px;
 
+}
 
+#blog .blog-img {
+     
+     width: 50%;
+     margin-right: 40px;
+}
 
+#blog img {
+     height: 300px;
+     width: 100%;
+     obect-fit: cover;
+}
 
+#blog .blog-text {
+     width 50%;
+}
 
+#blog .blog-text a {
+     font-size: 16px;
+     color: #088178;   
 
-
-
-
-
+}
