@@ -205,6 +205,56 @@ body {
 
 
 
+/******* Footer *******/
+
+ footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background: #FFF9FD;
+}
+
+
+   footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+   footer h4 {
+     font-size: 14px;
+     padding-bottom: 20px;
+}
+
+
+   footer .logo {
+     margin-bottom: 30px;
+}
+
+
+  footer p {
+     font-size: 13px;
+     margin: 0 0 8px 0;
+}
+
+ footer a {
+     font-size: 13px;
+text-decoration: none;
+     margin: 0 0 8px 0;
+     color: #222;
+}
+
+ footer .copyright {
+     width: 100%;
+     text-align: center;
+}
+
+
+
+
+
+
 
 
 
