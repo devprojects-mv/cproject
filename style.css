@@ -310,3 +310,46 @@ text-decoration: none;
      color: #088178;   
 
 }
+
+/********* About Page ***********/
+#page-header.about-header  {
+     background-image: url("img/banner3.png");
+}
+
+#about .about-area {
+     align-items: center;
+     width: 100%;
+     display: flex;
+     padding-bottom: 85px;
+}
+
+
+#about {
+     padding: 150px 150px 0 150px;
+
+}
+
+#about .about-img {
+     
+     width: 50%;
+     margin-right: 40px;
+}
+
+#about img {
+     height: 300px;
+     width: 100%;
+     obect-fit: cover;
+}
+
+#about .about-text {
+     width 50%;
+}
+
+#about .about-text a {
+     font-size: 16px;
+     color: #088178;   
+
+}
+
+
+
